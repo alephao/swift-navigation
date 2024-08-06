@@ -2,7 +2,7 @@
   import CustomDump
   import SwiftUI
   import SwiftNavigation
-  import SwiftUINavigation
+  import SwiftUINavigationNew
   import XCTest
 
   @available(iOS 15, macOS 12, tvOS 15, watchOS 8, *)

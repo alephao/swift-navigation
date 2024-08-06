@@ -1,5 +1,4 @@
 {
-  "originHash" : "0f769ae8f778ebc2843f0541f2d8e85fd717f40bcbaee30a77a887a4882e74fd",
   "pins" : [
     {
       "identity" : "swift-case-paths",
@@ -40,7 +39,7 @@
     {
       "identity" : "swift-docc-symbolkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftlang/swift-docc-symbolkit",
+      "location" : "https://github.com/apple/swift-docc-symbolkit",
       "state" : {
         "revision" : "b45d1f2ed151d057b54504d653e0da5552844e34",
         "version" : "1.0.0"
@@ -74,5 +73,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }

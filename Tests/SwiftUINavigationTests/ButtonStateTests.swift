@@ -1,7 +1,7 @@
 #if canImport(SwiftUI) && canImport(Testing)
   import CustomDump
   import SwiftUI
-  import SwiftUINavigation
+  import SwiftUINavigationNew
   import Testing
 
   struct ButtonStateTests {

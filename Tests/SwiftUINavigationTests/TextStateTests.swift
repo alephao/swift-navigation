@@ -1,6 +1,6 @@
 #if canImport(SwiftUI)
   import CustomDump
-  import SwiftUINavigation
+  import SwiftUINavigationNew
   import XCTest
 
   final class TextStateTests: XCTestCase {

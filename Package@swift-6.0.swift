@@ -16,8 +16,8 @@ let package = Package(
       targets: ["SwiftNavigation"]
     ),
     .library(
-      name: "SwiftUINavigation",
-      targets: ["SwiftUINavigation"]
+      name: "SwiftUINavigationNew",
+      targets: ["SwiftUINavigationNew"]
     ),
     .library(
       name: "UIKitNavigation",
@@ -49,17 +49,18 @@ let package = Package(
       ]
     ),
     .target(
-      name: "SwiftUINavigation",
+      name: "SwiftUINavigationNew",
       dependencies: [
         "UIKitNavigation",
         .product(name: "CasePaths", package: "swift-case-paths"),
         .product(name: "IssueReporting", package: "xctest-dynamic-overlay"),
-      ]
+      ],
+      path: "Sources/SwiftUINavigation"
     ),
     .testTarget(
       name: "SwiftUINavigationTests",
       dependencies: [
-        "SwiftUINavigation"
+        "SwiftUINavigationNew"
       ]
     ),
     .target(

@@ -1,7 +1,7 @@
 #if canImport(SwiftUI)
   import CustomDump
   import SwiftUI
-  import SwiftUINavigation
+  import SwiftUINavigationNew
   import XCTest
 
   final class BindingTests: XCTestCase {

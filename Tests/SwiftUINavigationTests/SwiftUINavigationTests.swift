@@ -2,7 +2,7 @@
   import SwiftUI
   import XCTest
 
-  @testable import SwiftUINavigation
+  @testable import SwiftUINavigationNew
 
   final class SwiftUINavigationTests: XCTestCase {
     @MainActor
